@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6AE3CFF947FCBBF34C317104 /* libPods-VVVPrivateToPublicExampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C8067B9B9D7AC146D4C89C78 /* libPods-VVVPrivateToPublicExampleTests.a */; };
+		96719A912DF3520B2A10D8B2 /* libPods-VVVPrivateToPublicExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 909907BED8D7FB1FD551F68C /* libPods-VVVPrivateToPublicExample.a */; };
+		E34A50891D2651F700274613 /* VVVPrivateToPublicExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E34A50881D2651F700274613 /* VVVPrivateToPublicExampleTests.m */; };
+		E34A50941D2651F700274613 /* VVVPrivateToPublicExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E34A50931D2651F700274613 /* VVVPrivateToPublicExampleUITests.m */; };
+		E34A50A71D26530B00274613 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E34A50A31D26530B00274613 /* main.m */; };
+		E34A50A81D26530B00274613 /* VVVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E34A50A51D26530B00274613 /* VVVAppDelegate.m */; };
+		E34A50B51D26531100274613 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E34A50AA1D26531100274613 /* Assets.xcassets */; };
+		E34A50B61D26531100274613 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E34A50AB1D26531100274613 /* LaunchScreen.storyboard */; };
+		E34A50B71D26531100274613 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E34A50AD1D26531100274613 /* Main.storyboard */; };
+		E34A50B81D26531100274613 /* VVVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E34A50B41D26531100274613 /* VVVViewController.m */; };
+		E34A50BC1D2655E000274613 /* PGMNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = E34A50BB1D2655E000274613 /* PGMNetwork.m */; };
+		E34A50BF1D26562400274613 /* PGMGolferRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E34A50BD1D26562400274613 /* PGMGolferRequest.m */; };
+		E34A50C31D2656BB00274613 /* PGMRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = E34A50C21D2656BB00274613 /* PGMRequest.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E34A50851D2651F700274613 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E34A50631D2651F700274613 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E34A506A1D2651F700274613;
+			remoteInfo = VVVPrivateToPublicExample;
+		};
+		E34A50901D2651F700274613 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E34A50631D2651F700274613 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E34A506A1D2651F700274613;
+			remoteInfo = VVVPrivateToPublicExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		504AC9A13FC6862EFE58A80D /* Pods-VVVPrivateToPublicExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VVVPrivateToPublicExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VVVPrivateToPublicExampleTests/Pods-VVVPrivateToPublicExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		5880A6B7D00DAA150001D79A /* Pods-VVVPrivateToPublicExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VVVPrivateToPublicExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VVVPrivateToPublicExample/Pods-VVVPrivateToPublicExample.debug.xcconfig"; sourceTree = "<group>"; };
+		85679A75024BED6DDF6A8262 /* Pods-VVVPrivateToPublicExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VVVPrivateToPublicExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VVVPrivateToPublicExampleTests/Pods-VVVPrivateToPublicExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		909907BED8D7FB1FD551F68C /* libPods-VVVPrivateToPublicExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VVVPrivateToPublicExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8067B9B9D7AC146D4C89C78 /* libPods-VVVPrivateToPublicExampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VVVPrivateToPublicExampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC2689CB56F858481B012FCF /* Pods-VVVPrivateToPublicExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VVVPrivateToPublicExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-VVVPrivateToPublicExample/Pods-VVVPrivateToPublicExample.release.xcconfig"; sourceTree = "<group>"; };
+		E34A506B1D2651F700274613 /* VVVPrivateToPublicExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VVVPrivateToPublicExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E34A50841D2651F700274613 /* VVVPrivateToPublicExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VVVPrivateToPublicExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E34A50881D2651F700274613 /* VVVPrivateToPublicExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VVVPrivateToPublicExampleTests.m; sourceTree = "<group>"; };
+		E34A508A1D2651F700274613 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E34A508F1D2651F700274613 /* VVVPrivateToPublicExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VVVPrivateToPublicExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E34A50931D2651F700274613 /* VVVPrivateToPublicExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VVVPrivateToPublicExampleUITests.m; sourceTree = "<group>"; };
+		E34A50951D2651F700274613 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E34A50A21D26530B00274613 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E34A50A31D26530B00274613 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E34A50A41D26530B00274613 /* VVVAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVVAppDelegate.h; sourceTree = "<group>"; };
+		E34A50A51D26530B00274613 /* VVVAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVVAppDelegate.m; sourceTree = "<group>"; };
+		E34A50AA1D26531100274613 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E34A50AC1D26531100274613 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E34A50AE1D26531100274613 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E34A50B31D26531100274613 /* VVVViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVVViewController.h; sourceTree = "<group>"; };
+		E34A50B41D26531100274613 /* VVVViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVVViewController.m; sourceTree = "<group>"; };
+		E34A50BA1D2655E000274613 /* PGMNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGMNetwork.h; sourceTree = "<group>"; };
+		E34A50BB1D2655E000274613 /* PGMNetwork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGMNetwork.m; sourceTree = "<group>"; };
+		E34A50BD1D26562400274613 /* PGMGolferRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGMGolferRequest.m; sourceTree = "<group>"; };
+		E34A50C01D26569700274613 /* PGMGolferRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PGMGolferRequest.h; sourceTree = "<group>"; };
+		E34A50C11D2656BB00274613 /* PGMRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGMRequest.h; sourceTree = "<group>"; };
+		E34A50C21D2656BB00274613 /* PGMRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGMRequest.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E34A50681D2651F700274613 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96719A912DF3520B2A10D8B2 /* libPods-VVVPrivateToPublicExample.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E34A50811D2651F700274613 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AE3CFF947FCBBF34C317104 /* libPods-VVVPrivateToPublicExampleTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E34A508C1D2651F700274613 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF05E8B754DCDCE2D9FEDE7D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5880A6B7D00DAA150001D79A /* Pods-VVVPrivateToPublicExample.debug.xcconfig */,
+				CC2689CB56F858481B012FCF /* Pods-VVVPrivateToPublicExample.release.xcconfig */,
+				85679A75024BED6DDF6A8262 /* Pods-VVVPrivateToPublicExampleTests.debug.xcconfig */,
+				504AC9A13FC6862EFE58A80D /* Pods-VVVPrivateToPublicExampleTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E34A50621D2651F700274613 = {
+			isa = PBXGroup;
+			children = (
+				E34A50A11D26530B00274613 /* VVVPrivateToPublicExample */,
+				E34A50A91D26531100274613 /* Resources */,
+				E34A50AF1D26531100274613 /* Source */,
+				E34A50871D2651F700274613 /* VVVPrivateToPublicExampleTests */,
+				E34A50921D2651F700274613 /* VVVPrivateToPublicExampleUITests */,
+				E34A506C1D2651F700274613 /* Products */,
+				DF05E8B754DCDCE2D9FEDE7D /* Pods */,
+				E69183763673C040D8D80EC3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E34A506C1D2651F700274613 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E34A506B1D2651F700274613 /* VVVPrivateToPublicExample.app */,
+				E34A50841D2651F700274613 /* VVVPrivateToPublicExampleTests.xctest */,
+				E34A508F1D2651F700274613 /* VVVPrivateToPublicExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E34A50871D2651F700274613 /* VVVPrivateToPublicExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				E34A50881D2651F700274613 /* VVVPrivateToPublicExampleTests.m */,
+				E34A508A1D2651F700274613 /* Info.plist */,
+			);
+			path = VVVPrivateToPublicExampleTests;
+			sourceTree = "<group>";
+		};
+		E34A50921D2651F700274613 /* VVVPrivateToPublicExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E34A50931D2651F700274613 /* VVVPrivateToPublicExampleUITests.m */,
+				E34A50951D2651F700274613 /* Info.plist */,
+			);
+			path = VVVPrivateToPublicExampleUITests;
+			sourceTree = "<group>";
+		};
+		E34A50A11D26530B00274613 /* VVVPrivateToPublicExample */ = {
+			isa = PBXGroup;
+			children = (
+				E34A50A21D26530B00274613 /* Info.plist */,
+				E34A50A31D26530B00274613 /* main.m */,
+				E34A50A41D26530B00274613 /* VVVAppDelegate.h */,
+				E34A50A51D26530B00274613 /* VVVAppDelegate.m */,
+			);
+			path = VVVPrivateToPublicExample;
+			sourceTree = "<group>";
+		};
+		E34A50A91D26531100274613 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E34A50AA1D26531100274613 /* Assets.xcassets */,
+				E34A50AB1D26531100274613 /* LaunchScreen.storyboard */,
+				E34A50AD1D26531100274613 /* Main.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E34A50AF1D26531100274613 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				E34A50B01D26531100274613 /* Lib */,
+				E34A50B11D26531100274613 /* Models */,
+				E34A50B21D26531100274613 /* UI */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		E34A50B01D26531100274613 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				E34A50BA1D2655E000274613 /* PGMNetwork.h */,
+				E34A50BB1D2655E000274613 /* PGMNetwork.m */,
+				E34A50C11D2656BB00274613 /* PGMRequest.h */,
+				E34A50C21D2656BB00274613 /* PGMRequest.m */,
+				E34A50C01D26569700274613 /* PGMGolferRequest.h */,
+				E34A50BD1D26562400274613 /* PGMGolferRequest.m */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		E34A50B11D26531100274613 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E34A50B21D26531100274613 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				E34A50B31D26531100274613 /* VVVViewController.h */,
+				E34A50B41D26531100274613 /* VVVViewController.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		E69183763673C040D8D80EC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				909907BED8D7FB1FD551F68C /* libPods-VVVPrivateToPublicExample.a */,
+				C8067B9B9D7AC146D4C89C78 /* libPods-VVVPrivateToPublicExampleTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E34A506A1D2651F700274613 /* VVVPrivateToPublicExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E34A50981D2651F700274613 /* Build configuration list for PBXNativeTarget "VVVPrivateToPublicExample" */;
+			buildPhases = (
+				41B1F7BD65923D9A81D00AFC /* [CP] Check Pods Manifest.lock */,
+				E34A50671D2651F700274613 /* Sources */,
+				E34A50681D2651F700274613 /* Frameworks */,
+				E34A50691D2651F700274613 /* Resources */,
+				6498F17A18CB25D58E4E7563 /* [CP] Embed Pods Frameworks */,
+				6271F0D46211D7180F692B1D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VVVPrivateToPublicExample;
+			productName = VVVPrivateToPublicExample;
+			productReference = E34A506B1D2651F700274613 /* VVVPrivateToPublicExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E34A50831D2651F700274613 /* VVVPrivateToPublicExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E34A509B1D2651F700274613 /* Build configuration list for PBXNativeTarget "VVVPrivateToPublicExampleTests" */;
+			buildPhases = (
+				0C9D21D952D9F07C2D4425BB /* [CP] Check Pods Manifest.lock */,
+				E34A50801D2651F700274613 /* Sources */,
+				E34A50811D2651F700274613 /* Frameworks */,
+				E34A50821D2651F700274613 /* Resources */,
+				096DD8BAEEE59ABEFC293FC4 /* [CP] Embed Pods Frameworks */,
+				F2838EDF49AF3C9797931F0B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E34A50861D2651F700274613 /* PBXTargetDependency */,
+			);
+			name = VVVPrivateToPublicExampleTests;
+			productName = VVVPrivateToPublicExampleTests;
+			productReference = E34A50841D2651F700274613 /* VVVPrivateToPublicExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E34A508E1D2651F700274613 /* VVVPrivateToPublicExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E34A509E1D2651F700274613 /* Build configuration list for PBXNativeTarget "VVVPrivateToPublicExampleUITests" */;
+			buildPhases = (
+				E34A508B1D2651F700274613 /* Sources */,
+				E34A508C1D2651F700274613 /* Frameworks */,
+				E34A508D1D2651F700274613 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E34A50911D2651F700274613 /* PBXTargetDependency */,
+			);
+			name = VVVPrivateToPublicExampleUITests;
+			productName = VVVPrivateToPublicExampleUITests;
+			productReference = E34A508F1D2651F700274613 /* VVVPrivateToPublicExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E34A50631D2651F700274613 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VVV;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = anadea;
+				TargetAttributes = {
+					E34A506A1D2651F700274613 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					E34A50831D2651F700274613 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E34A506A1D2651F700274613;
+					};
+					E34A508E1D2651F700274613 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E34A506A1D2651F700274613;
+					};
+				};
+			};
+			buildConfigurationList = E34A50661D2651F700274613 /* Build configuration list for PBXProject "VVVPrivateToPublicExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E34A50621D2651F700274613;
+			productRefGroup = E34A506C1D2651F700274613 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E34A506A1D2651F700274613 /* VVVPrivateToPublicExample */,
+				E34A50831D2651F700274613 /* VVVPrivateToPublicExampleTests */,
+				E34A508E1D2651F700274613 /* VVVPrivateToPublicExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E34A50691D2651F700274613 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E34A50B61D26531100274613 /* LaunchScreen.storyboard in Resources */,
+				E34A50B51D26531100274613 /* Assets.xcassets in Resources */,
+				E34A50B71D26531100274613 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E34A50821D2651F700274613 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E34A508D1D2651F700274613 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		096DD8BAEEE59ABEFC293FC4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VVVPrivateToPublicExampleTests/Pods-VVVPrivateToPublicExampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0C9D21D952D9F07C2D4425BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		41B1F7BD65923D9A81D00AFC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6271F0D46211D7180F692B1D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VVVPrivateToPublicExample/Pods-VVVPrivateToPublicExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6498F17A18CB25D58E4E7563 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VVVPrivateToPublicExample/Pods-VVVPrivateToPublicExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2838EDF49AF3C9797931F0B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VVVPrivateToPublicExampleTests/Pods-VVVPrivateToPublicExampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E34A50671D2651F700274613 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E34A50B81D26531100274613 /* VVVViewController.m in Sources */,
+				E34A50BC1D2655E000274613 /* PGMNetwork.m in Sources */,
+				E34A50C31D2656BB00274613 /* PGMRequest.m in Sources */,
+				E34A50A71D26530B00274613 /* main.m in Sources */,
+				E34A50A81D26530B00274613 /* VVVAppDelegate.m in Sources */,
+				E34A50BF1D26562400274613 /* PGMGolferRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E34A50801D2651F700274613 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E34A50891D2651F700274613 /* VVVPrivateToPublicExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E34A508B1D2651F700274613 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E34A50941D2651F700274613 /* VVVPrivateToPublicExampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E34A50861D2651F700274613 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E34A506A1D2651F700274613 /* VVVPrivateToPublicExample */;
+			targetProxy = E34A50851D2651F700274613 /* PBXContainerItemProxy */;
+		};
+		E34A50911D2651F700274613 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E34A506A1D2651F700274613 /* VVVPrivateToPublicExample */;
+			targetProxy = E34A50901D2651F700274613 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E34A50AB1D26531100274613 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E34A50AC1D26531100274613 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E34A50AD1D26531100274613 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E34A50AE1D26531100274613 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E34A50961D2651F700274613 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E34A50971D2651F700274613 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E34A50991D2651F700274613 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5880A6B7D00DAA150001D79A /* Pods-VVVPrivateToPublicExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VVVPrivateToPublicExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anahoreprivatetopublicexample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E34A509A1D2651F700274613 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC2689CB56F858481B012FCF /* Pods-VVVPrivateToPublicExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VVVPrivateToPublicExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anahoreprivatetopublicexample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E34A509C1D2651F700274613 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85679A75024BED6DDF6A8262 /* Pods-VVVPrivateToPublicExampleTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VVVPrivateToPublicExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anahoret.VVVPrivateToPublicExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VVVPrivateToPublicExample.app/VVVPrivateToPublicExample";
+			};
+			name = Debug;
+		};
+		E34A509D1D2651F700274613 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 504AC9A13FC6862EFE58A80D /* Pods-VVVPrivateToPublicExampleTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VVVPrivateToPublicExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anahoret.VVVPrivateToPublicExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VVVPrivateToPublicExample.app/VVVPrivateToPublicExample";
+			};
+			name = Release;
+		};
+		E34A509F1D2651F700274613 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VVVPrivateToPublicExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anahoret.VVVPrivateToPublicExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VVVPrivateToPublicExample;
+			};
+			name = Debug;
+		};
+		E34A50A01D2651F700274613 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VVVPrivateToPublicExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anahoret.VVVPrivateToPublicExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VVVPrivateToPublicExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E34A50661D2651F700274613 /* Build configuration list for PBXProject "VVVPrivateToPublicExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E34A50961D2651F700274613 /* Debug */,
+				E34A50971D2651F700274613 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E34A50981D2651F700274613 /* Build configuration list for PBXNativeTarget "VVVPrivateToPublicExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E34A50991D2651F700274613 /* Debug */,
+				E34A509A1D2651F700274613 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E34A509B1D2651F700274613 /* Build configuration list for PBXNativeTarget "VVVPrivateToPublicExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E34A509C1D2651F700274613 /* Debug */,
+				E34A509D1D2651F700274613 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E34A509E1D2651F700274613 /* Build configuration list for PBXNativeTarget "VVVPrivateToPublicExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E34A509F1D2651F700274613 /* Debug */,
+				E34A50A01D2651F700274613 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E34A50631D2651F700274613 /* Project object */;
+}
